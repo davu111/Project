@@ -41,7 +41,8 @@ public class BangDiem extends Project_father<Diem>{
 	// Thêm mới điểm
 	public boolean themDiem(Diem diemMoi) {
 		for (Diem diem : this.ds) {
-			if (diemMoi.getMssv() == diem.getMssv() && diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
+			if (diemMoi.getMssv() == diem.getMssv() && 
+				diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
 				return false;
 			}
 		}
@@ -52,7 +53,8 @@ public class BangDiem extends Project_father<Diem>{
 	// Sửa điểm
 	public boolean suaDiem(Diem diemMoi) {
 		for (Diem diem : this.ds) {
-			if (diemMoi.getMssv() == diem.getMssv() && diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
+			if (diemMoi.getMssv() == diem.getMssv() && 
+				diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
 				this.ds.remove(diem);
 				this.ds.add(diemMoi);
 				return true;
@@ -64,7 +66,8 @@ public class BangDiem extends Project_father<Diem>{
 	// Xoá điểm
 	public boolean xoaDiem(Diem diemMoi) {
 		for (Diem diem : this.ds) {
-			if (diemMoi.getMssv() == diem.getMssv() && diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
+			if (diemMoi.getMssv() == diem.getMssv() && 
+				diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
 				this.ds.remove(diem);
 				return true;
 			}
@@ -75,7 +78,8 @@ public class BangDiem extends Project_father<Diem>{
 	// Tìm kiếm điểm
 	public boolean timDiem(Diem diemMoi) {
 		for (Diem diem : this.ds) {
-			if (diemMoi.getMssv() == diem.getMssv() && diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
+			if (diemMoi.getMssv() == diem.getMssv() && 
+				diemMoi.getMaHocPhan().equals(diem.getMaHocPhan())) {
 				return true;
 			}
 		}
