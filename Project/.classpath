@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="lib/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/eclipse-workspace/Project/bin/library/mysql-connector-j-8.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/eclipse-workspace/Project/bin/library/sqlite-jdbc-3.46.0.0.jar"/>
+	<classpathentry kind="lib" path="src/library/slf4j-api-2.0.12.jar"/>
+	<classpathentry kind="lib" path="src/library/slf4j-simple-2.0.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
