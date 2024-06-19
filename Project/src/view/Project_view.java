@@ -1,3 +1,8 @@
+// Name: Duong Anh Vu
+// Student ID: 20227187
+// Class:  150328
+// Project: Chu de 5 - Xay dung chuong trinh quan ly sinh vien
+// Date: 21/06/2024
 package view;
 
 import java.awt.BorderLayout;
